@@ -1,0 +1,112 @@
+<h1>COOKBOOK</h1>
+<h2>EESTI MAITSVAIM RETSEPTIVEEB</h2>
+<div class="row">
+    <div class="column"><h3>VÕTA ÜHENDUST</h3></div>            
+    <div class="column"><h3>REPSEPTID</h3></div>
+</div>
+
+<div class="pilt"><img src="bänner.jpg" alt="Bänner"></div>
+
+<div class="row">
+    <div class="column2">
+        <h3>MEIST</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    </div>            
+    <div class="column2"><img src="kokk.jpg" alt="kokk"></div>
+</div>
+
+<div class="row2"></div>
+    <div class="column left"><h4>EESTI KÖÖK</h4></div>
+    <div class="column middle"><h4>AASIA KÖÖK</h4></div>
+    <div class="column right"><h4>ITAALIA KÖÖK</h4></div>
+</div>
+<div class="footer1"></div>
+    <div class="tekst"><p>©dd.mm.yyyy</p></div>
+    <div class="tekst"><p>tel: 55555555</p></div>
+    <div class="tekst"><p>@: email@email.com</p></div>
+</div>
+
+h1 {
+    display:flex;
+    justify-content: center;
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+.column{
+    flex: 50%;
+}
+h3{
+    display: flex;
+    justify-content: center;
+}
+.row{
+    display: flex;
+}
+.row2{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.pilt{
+    display: flex;
+    width: 50%;
+}
+p{
+    justify-content: space-between;
+    width:66%;
+    display: flex;
+    float: right;
+
+}
+.column2{
+    flex: 50%;
+}
+
+.column{
+    float: left;
+}
+.middle{
+    width: 300px;
+    height: 300px;
+    line-height: 260px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    border: 2px solid black;
+}
+.right{
+    width: 300px;
+    height: 300px;
+    line-height: 260px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.left{
+    width: 300px;
+    height: 300px;
+    line-height: 260px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: blue;
+    text-align: center;
+    border: 2px solid black;
+    background-image: url("est.jpg");
+}
+.footer1{
+    color: black;
+    background-color: rgb(78, 75, 75);
+    
+}

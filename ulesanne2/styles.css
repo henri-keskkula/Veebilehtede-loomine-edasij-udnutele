@@ -1,0 +1,182 @@
+div{
+    display: block;
+}
+
+body{
+    margin: 0;
+
+}
+
+.header{
+    background-color: white;
+    height: 100px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 12px;
+    background-color: rgb(119, 118, 118);
+    padding-bottom: 30px;
+    text-transform:uppercase;
+    margin: auto;
+    
+    
+}
+.vasak, .parem{
+    width: 25%;
+    float: left;
+}
+.keskmine{
+    width: 25%;
+    float: left;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: rgb(212, 212, 212);
+}
+.container div{
+    padding: 1%;
+    box-sizing: border-box;
+    margin: auto;
+}
+h1, h2 {
+    text-align: center;
+}
+.container_0 div{
+    padding: 1%;
+    box-sizing: border-box;
+}
+.vasak1, .parem1{
+    width: 50%;
+    text-transform:uppercase;
+}
+
+.foto{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-image: url("bänner.jpg");
+    
+
+}
+
+.parem2, .vasak2{
+    width: 50%;
+    float: left;
+}
+.vasak2 p{
+    width: 50%;
+    float: right;
+    text-align: justify;
+    padding-right: 40px;
+    color: white;
+}
+.vasak2 h2{
+    text-transform:uppercase;
+    color: white;
+}
+.parem2, img{
+    text-align: center;
+}
+
+.container_1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(119, 118, 118);
+    padding: 2%;
+}
+
+.vasak {
+    line-height: 200px;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border: 2px solid black;
+    margin: 10px;
+    
+}
+.vasak:hover{
+    background: url("est.jpg") no-repeat;
+}
+
+.keskmine {
+    line-height: 200px;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border: 2px solid black;
+    margin: 10px;    
+}
+.keskmine:hover{
+    background: url("asia.jpg") no-repeat;
+}
+.parem {
+    line-height: 200px;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border: 2px solid black;
+    margin: 10px;   
+}
+.parem:hover{
+    background: url("itaalia.jpg") no-repeat;
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 5%;
+}
+.container_0 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.parem1{
+    float: right;
+}
+.vasak1{
+    float: right;
+    
+}
+.container_0_0{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 15%;
+    background-image: url("bänner.jpg");
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.vasak_1{
+    display: flex;
+    flex-direction: column-reverse;
+    padding-bottom: 20px;
+}
+.vasak_1 a{
+    color: black;
+    float: left;
+}
+.keskmine_1{
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    float: right;
+}
+.container_0 h2{
+    border: 2px solid black;
+    padding: 5%;
+}
